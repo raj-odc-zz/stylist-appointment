@@ -41,7 +41,7 @@ All are component based so each folder will have the JSX and SCSS files, to easi
 
 I have seperated the API and Utils methods JS as seperated so it can be used some other places.
 
-##ToDo
+## ToDo
 Need to add Loader when user clicks confirm box
 Need to add test for all the components
 Need to add the address fields and payments options
