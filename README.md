@@ -2,7 +2,9 @@
 Clone the app using the comment `git clone git@github.com:raj-odc/stylist-appointment.git`
 
 `cd stylist-appointment`
+
 `npm install`
+
 `npm start` 
 This will run the app in the port 3000, it automatically takes to browser. If anyother app is running in the 3000 port then terminal will ask to open in new port, please give `Y` in this case.
 
