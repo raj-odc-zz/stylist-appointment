@@ -69,3 +69,45 @@
   color: #2880a3;
   background-color: #eee;
   border-color: #2880a3; }
+
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.success p {
+  font-weight: 600;
+  line-height: 1.4;
+  font-family: "Gotham-Bold";
+  color: #333;
+  font-size: 16px;
+  text-align: center; }
+
+.success__order-details {
+  margin: 15px;
+  border: 15px solid #eee;
+  padding: 30px 20px;
+  text-align: left; }
+
+.success__order-details__parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 15px 0; }
+
+.order-details__child--pic {
+  margin-right: 30px; }
+
+.order-details__child--text p {
+  text-align: left;
+  margin: 0; }
+
+.order-details__child--subtext {
+  line-height: 1.4;
+  font-family: "OpenSans";
+  color: #333;
+  font-size: 14px;
+  display: block; }
+
+.success__head--pic {
+  margin: 10px 0px; }

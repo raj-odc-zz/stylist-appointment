@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 .btn {
   border-radius: 2px;
   display: inline-block;
@@ -8,13 +10,15 @@
   padding: 20px 50px;
   text-align: center;
   vertical-align: middle;
-  white-space: nowrap; }
+  white-space: nowrap;
+}
 
 .btn-default,
 .btn-default:visited {
   background-color: transparent;
-  border: 1px solid #2880a3;
-  color: #2880a3; }
+  border: 1px solid $blue;
+  color: $blue;
+}
 
 .btn-default.active.focus,
 .btn-default.active:focus,
@@ -24,23 +28,27 @@
 .btn-default:active:hover,
 .btn-default:hover {
   background-color: transparent;
-  border-color: #23708f;
-  color: #23708f; }
+  border-color: $pelorous;
+  color: $pelorous;
+}
 
-.btn-outline, .btn-outline:visited {
+.btn-outline,.btn-outline:visited {
   border: 1px solid #000;
   color: #000;
-  background-color: transparent; }
+  background-color: transparent
+}
 
-.btn-primary, .btn-primary:visited {
-  background-color: #2880a3;
-  border-color: #2880a3;
-  color: #fff; }
+.btn-primary,.btn-primary:visited {
+  background-color: $blue;
+  border-color: $blue;
+  color: $white
+}
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover, .btn-primary:visited:active, .btn-primary:visited:focus, .btn-primary:visited:hover {
-  background-color: #23708f !important;
-  border-color: #23708f !important;
-  color: #fff !important; }
+.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.btn-primary:visited:active,.btn-primary:visited:focus,.btn-primary:visited:hover {
+  background-color: $pelorous!important;
+  border-color: $pelorous!important;
+  color: $white!important
+}
 
 .btn-link {
   padding: 14px 0;
@@ -49,7 +57,8 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 1.5;
-  color: #333 !important; }
+  color: #333!important
+}
 
 .btn-icon {
   padding: 0 6px;
@@ -57,15 +66,20 @@
   vertical-align: baseline;
   text-decoration: none;
   font-size: 20px;
-  background-color: transparent; }
+  background-color: transparent
+}
 
 .btn-rounded {
   padding: 12px 23px;
   border-radius: 30px;
   font-size: 13px;
-  height: auto; }
+  height: auto
+}
 
 .btn-gray-primary {
-  color: #2880a3;
-  background-color: #eee;
-  border-color: #2880a3; }
+  color: $blue;
+  background-color: $whisper;
+  border-color: $blue;
+}
+
+

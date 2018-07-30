@@ -1,0 +1,34 @@
+$azure: #f5f6f6;
+$gray20: #333;
+$dark-black: #222;
+$dark-grayishblue: #3c4551;
+$white: #fff;
+$whisper: #eee;
+$blue: #2880a3;
+$pelorous: #23708f;
+$light-grey: #cdcccc;
+$opacity: 100%;
+$font-size-sm: 10px;
+$font-size-md: 14px;
+$font-size-lg: 16px;
+$font-openssans: 'OpenSans';
+$font-gothambold: 'Gotham-Bold';
+$font-outfittery: 'Light-Outfittery-Iconset';
+$radius: 2px;
+$line-height: 1.4px;
+
+
+@mixin text-title {
+  font-weight: 600;
+	line-height: 1.4;
+	font-family: $font-gothambold;
+	color: $gray20;
+	font-size: 16px;
+}
+
+@mixin text-subtitle {
+	line-height: 1.4;
+	font-family: $font-openssans;
+	color: $gray20;
+	font-size: 14px;
+}

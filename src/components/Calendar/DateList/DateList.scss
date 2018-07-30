@@ -1,0 +1,84 @@
+@import '../../../variables.scss';
+
+.slick-prev {
+  left: -1% !important;
+  z-index: 1;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1;
+}
+.slick-next {
+  left: 98%;
+  z-index: 1;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1;
+}
+
+
+.slick-next:before{
+  color: $blue;
+  content: "\e606";
+  font-family: $font-outfittery;
+}
+
+.slick-prev:before{
+  color: $blue;
+  content: "\e608";
+  font-family: $font-outfittery;
+}
+
+.schedule-slot__date{
+  border: 1px solid $light-grey;
+  background-color: $white;
+  cursor: pointer;
+  display: flex !important;
+  flex-direction: column;
+  width: 96% !important;
+}
+
+.schedule-slot__date--selected{
+  border: 1px solid $blue;
+  background-color: rgba($color: $blue, $alpha: 0.2);
+  cursor: pointer;
+  display: flex !important;
+  flex-direction: column;
+  width: 96% !important;
+}
+
+.schedule-slot__day{
+  color: $gray20;
+  font-size: 10px;
+  font-face: '$font-openssans';
+  pointer-events: none;
+}
+
+.schedule-slot__month{
+  color: $gray20;
+  font-size: 14px;
+  font-face: '$font-gothambold';
+  pointer-events: none;
+}
+
+.schedule-slot__date--selected{
+  border: 1px solid $blue;
+  background-color: rgba($color: $blue, $alpha: 0.2);
+}
+
+a:link, a:hover, a:visited, a:active {
+  text-decoration: none;
+}
+
+.schedule__time {
+  margin: 10px;
+}
+
+.schedule__time--child {
+  border: none;
+  border-bottom: 1px solid $light-grey;
+}
+
+.schedule__time--not-available{
+  margin: 20px;
+}
+

@@ -1,0 +1,23 @@
+body {
+  background-color: #975353; }
+
+.home-main {
+  margin-top: 150px; }
+
+.home-main__title {
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.4;
+  font-family: "Gotham-Bold";
+  color: #333;
+  font-size: 16px; }
+
+.home-main__arrowIcon:after {
+  height: 20px;
+  width: 30px;
+  margin: 10px auto;
+  margin-top: 20px;
+  content: "\e605";
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: calc(50% - 12px); }

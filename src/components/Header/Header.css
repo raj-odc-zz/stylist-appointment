@@ -1,0 +1,8 @@
+.logo-nav {
+  display: block;
+  background: url("./../../images/calendar/white_logo.svg") no-repeat;
+  width: 210px;
+  height: 30px; }
+
+body {
+  background-color: #fff; }

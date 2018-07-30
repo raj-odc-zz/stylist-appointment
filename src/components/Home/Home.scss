@@ -1,0 +1,25 @@
+@import '../../variables.scss';
+
+body {
+  background-color:rgb(151, 83, 83);
+}
+
+.home-main {
+  margin-top: 150px;
+}
+
+.home-main__title {
+  text-transform: uppercase;
+  @include text-title;
+}
+
+.home-main__arrowIcon:after {
+  height: 20px;
+  width: 30px;
+  margin: 10px auto;
+  margin-top: 20px;
+  content: "\e605";
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: calc(50% - 12px);
+}

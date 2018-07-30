@@ -1,0 +1,32 @@
+.progress-icon {
+  display: flex;
+  justify-content: center; }
+
+.progress-icon__content {
+  position: relative; }
+
+.progress-icon__content-icon {
+  position: absolute;
+  left: 29px;
+  top: 22px;
+  font-size: 24px; }
+
+.icon-light-tshirt:before {
+  content: "\e804"; }
+
+.icon-light-customer:before {
+  content: "\e636"; }
+
+.icon-light-box-plain:before {
+  content: "\E65F"; }
+
+.progress-bar-line-empty:after {
+  content: "";
+  border-bottom: 1px solid;
+  position: absolute;
+  color: #2880a3;
+  transition: color .5s ease-in-out;
+  width: 66px;
+  top: 32%;
+  margin-left: 7%;
+  z-index: -1; }

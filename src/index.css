@@ -1,5 +1,18 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Light-Outfittery-Iconset';
+  text-align: center;
+}
+
+
+@font-face {
+  font-family: 'Light-Outfittery-Iconset';
+  src: url('assets/fonts/Light-Outfittery-Iconset.eot') format('embedded-opentype'),
+  url('assets/fonts/Light-Outfittery-Iconset.woff2') format("woff2"),
+  url('assets/fonts/Light-Outfittery-Iconset.woff') format("woff"),
+  url('assets/fonts/Light-Outfittery-Iconset.ttf') format("truetype"),
+  url('assets/fonts/Light-Outfittery-Iconset.svg') format("svg");
+  font-weight: 400;
+  font-style: 'normal'
 }

@@ -1,0 +1,119 @@
+@import '../../../variables.scss';
+
+.calendar__form{
+	display: flex;
+}
+
+.calendar__stylist--option {
+	display: flex;
+	justify-content: center;
+	margin: 8px 0;
+}
+
+.calendar__contact--details {
+	background-color: $whisper;
+	margin: 8px 0;
+}
+
+.calendar__contact--details > p {
+	@include text-subtitle;
+	text-align: left;
+	margin: 31px 20px 30px;
+}
+
+
+.form-control {
+	margin: 10px 0px;
+	border-radius: 0;
+	border: 1px solid #d9d9d9;
+	padding: 10px 14px;
+	font-size: 14px;
+	line-height: 1;
+	height: 44px;
+	color: #7d8997;
+	box-shadow: none
+}
+
+.calendar {
+	text-align: center;
+	margin: 0 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.calendar__stylist--picture {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.calendar__stylist--schedule p {
+	@include text-title
+}
+
+.calendar__stylist--selection {
+	display: flex;
+	border: 1px solid $blue;
+	padding: 10px 14px;
+	justify-content: space-between;
+}
+
+input[type='checkbox'].calendar__stylist--date {     
+	position: relative;
+	left: -999em;
+	width:5%;
+	display: inline-block;
+}
+
+input[type='checkbox'].calendar__stylist--date + span.calendar__stylist--date-target:after {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 2px;
+	background-color: $white;
+	border: 1px solid $blue;
+	cursor: pointer;
+	margin-top: 3px;
+	padding: 0;
+}
+
+input[type='checkbox'].calendar__stylist--date:checked + span.calendar__stylist--date-target:after {
+	content: "";
+	position: absolute;
+	background-color: $blue;
+}
+
+span.calendar__stylist--date { 
+	display: block;
+	width:100%;
+}
+
+.calendar__stylist--date label {
+	margin-bottom: 0px;
+	display:flex;
+}
+
+.calendar__contact--number {
+	text-align: left;
+	margin: 31px 20px 30px;
+	
+	p {
+		@include text-title;
+		margin-bottom: 0px;
+	}
+}
+
+.calendar__contact--comments {
+	height: auto;
+}
+
+.calendar__stylist--image-sec{
+	display: inline-block;
+	text-align: left;
+	width:92%;
+}
+
+.calendar__stylist--pic{
+	margin-right: 8px;
+}
